@@ -129,6 +129,13 @@
             "keyPerformanceIndicators": {},
             "chartSettings": {
               "showDataLabel": true
+            },
+            "filterSettings": {
+              "dateSettings": {
+                "useDateRange": true,
+                "selectedValues": "DATE,DATERANGE,LAST2WEEKS,LAST3WEEKS,LAST4WEEKS,LASTDAYS,LASTMONTH,LASTMONTHS,LASTQUARTER,LASTWEEK,LASTWEEKS,LASTYEARS,THISMONTH,THISQUARTER,THISWEEK,YESTERDAY",
+                "exclude": true
+              }
             }
           }
         },
