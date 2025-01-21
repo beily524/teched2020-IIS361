@@ -120,13 +120,16 @@
           "settings": {
             "condensedTableLayout": true,
             "showGoButtonOnFilterBar": true,
-            "tableType": "AnalyticalTable",
             "autoHide": true,
             "smartVariantManagement": false,
             "tableSettings": {
-              "multiSelect": false
+              "multiSelect": false,
+              "type": "AnalyticalTable"
             },
-            "keyPerformanceIndicators": {}
+            "keyPerformanceIndicators": {},
+            "chartSettings": {
+              "showDataLabel": true
+            }
           }
         },
         "pages": {
